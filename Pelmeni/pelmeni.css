@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Inter";
+    background-color: #D9D9D9;
+    text-align: center;
+}
+.top{
+    background-color: #9AC3FF;
+    margin: 0;
+    padding: 0 20px;
+}
+.recipes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+
+.secret{
+    text-align: left;
+}
